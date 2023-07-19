@@ -1,2 +1,1 @@
-# harrisoncountyhealthco
-Sample Website for Harrison County Health Department
+# Sample Website For Harrison County Health Department
