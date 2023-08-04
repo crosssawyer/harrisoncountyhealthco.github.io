@@ -29,7 +29,7 @@
 }
 
 #navbar__logo{
-    background-color: #ff8177;
+    background-color: #ff8277;
     background-image: linear-gradient(to top, #CFA97C 0%, #CFA97C);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -91,7 +91,7 @@ h1,h2,h3,h4{
 }
 
 .pageHeader{
-  
+    
 }
 
 .HospiceParag{
@@ -114,4 +114,11 @@ h1,h2,h3,h4{
 img{
     height: auto;
     max-width: 100%;
+}
+
+.allHeaders{
+    height: 250px;
+    width: auto;
+    background-color: azure;
+    border: #131313;
 }
