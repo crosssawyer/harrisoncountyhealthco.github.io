@@ -76,7 +76,7 @@
 
 .button{
     diplay: flex ;
-    
+
 }
 
 h1,h2,h3,h4{
@@ -88,6 +88,7 @@ h1,h2,h3,h4{
     position: sticky;
     top: 0;
     cursor: pointer;
+    font-style: bold;
 }
 
 .pageHeader{
@@ -97,15 +98,15 @@ h1,h2,h3,h4{
 .HospiceParag{
     font-size: 14px;
     display: -webkit-box;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 25px;
     margin-left: 15px;
     margin-right: 400px;
 }
 
 .header1{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 0px;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -119,6 +120,6 @@ img{
 .allHeaders{
     height: 250px;
     width: auto;
-    background-color: azure;
+    background-color: #CFA97C;
     border: #131313;
 }
