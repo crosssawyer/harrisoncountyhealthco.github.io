@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: fantasy;
 }
 
 .navbar{
@@ -29,7 +30,7 @@
 
 #navbar__logo{
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #1E3255 0%, #ffb112);
+    background-image: linear-gradient(to top, #CFA97C 0%, #CFA97C);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -78,7 +79,7 @@
     
 }
 
-.header1{
+h1,h2,h3,h4{
     height: 80px;
     display: flex;
     justify-content: center;
@@ -86,9 +87,31 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
+    cursor: pointer;
 }
 
-.pageheader{
-    height: 80px;
+.pageHeader{
+  
+}
 
+.HospiceParag{
+    font-size: 14px;
+    display: -webkit-box;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 400px;
+}
+
+.header1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+img{
+    height: auto;
+    max-width: 100%;
 }
