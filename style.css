@@ -6,12 +6,13 @@
 }
 
 img{
+    z-index: 1;
     height: auto;
     max-width: 100%;
 }
 
 .navbar{
-    background: #131313;
+    background: white;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -56,6 +57,7 @@ img{
     align-items: center;
     list-style: none;
     text-align: center;
+    -moz-box-shadow: 2px 15px 20px -4px rgba(0,0,0,0.66);
 }
 
 .navbar__item{
@@ -63,7 +65,7 @@ img{
 }
 
 .navbar__links{
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,15 +87,27 @@ img{
 }
 
 .bigbanner{
-    background-color: #131313;
-    width: 600px;
+    z-index: 1;
+    position: relative;
+    width: 100px;
     height: 500px;
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
 }
 .bigpopup{
+    z-index: 1;
+    position: relative;
     width: 100%;
+}
+
+.frontbox{
+    z-index: 10;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    height: 20px;
+    width: 400px;
+    background-color: blueviolet;
 }
 
 .box-containers{
@@ -108,4 +122,17 @@ img{
     border: 5px;
     float: left;
     margin: 25px;
+    -webkit-box-shadow: -16px -16px 56px -19px rgba(255,255,255,0.64);
+    -moz-box-shadow: -16px -16px 56px -19px rgba(255,255,255,0.64);
+    border-radius: 50px;
+}
+
+.box-style-header{
+    width: 125px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: auto;
+    width: 50%;
+    color: #fff;
 }
