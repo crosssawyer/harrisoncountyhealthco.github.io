@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: fantasy;
+    font-family: inherit;
 }
 
 img{
@@ -24,6 +24,7 @@ img{
 }
 
 .navbar__container{
+    font-family: fantasy;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -111,8 +112,7 @@ img{
 }
 
 .box-containers{
-    height: 800px;
-    background-color: #131313;
+    height: 500px;
 }
 
 .headerbox{
@@ -125,6 +125,8 @@ img{
     -webkit-box-shadow: -16px -16px 56px -19px rgba(255,255,255,0.64);
     -moz-box-shadow: -16px -16px 56px -19px rgba(255,255,255,0.64);
     border-radius: 50px;
+    font-family: fantasy;
+
 }
 
 .box-style-header{
@@ -135,4 +137,13 @@ img{
     margin: auto;
     width: 50%;
     color: #fff;
+}
+
+.moreinfo{
+    font-family: serif;
+}
+
+.connectpicture{
+    height: 75px;
+    color: white;
 }
