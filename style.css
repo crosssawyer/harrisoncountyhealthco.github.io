@@ -141,9 +141,12 @@ img{
 
 .moreinfo{
     font-family: serif;
+    text-align: center;
 }
 
-.connectpicture{
-    height: 75px;
-    color: white;
+.smallicon{
+    width: 80px;
+    align-items: center;
+    margin-left: 150px;
+    cursor: pointer;
 }
