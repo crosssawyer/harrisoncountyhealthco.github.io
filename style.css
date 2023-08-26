@@ -21,6 +21,7 @@ img {
     position: sticky;
     top: 0;
     z-index: 999;
+    position: fixed;
 }
 
 .navbar__container {
@@ -114,8 +115,11 @@ img {
 
 .box-containers {
     height: 300px;
+    width: 50%;
+    margin: auto;
 }
 
+/*BIG BOXES*/
 .headerbox {
     background-color: #CFA97C;
     height: 150px;
@@ -140,25 +144,38 @@ img {
     color: #fff;
 }
 
-.moreinfo {
-    font-family: serif;
-    text-align: center;
-    background-color: grey;
-    border-radius: 200px;
-    border-width: 50px;
-}
-
 .smallicon {
     width: 80px;
     align-items: center;
     margin-left: 150px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
-.ourStory {
-    font-size: 23px;
-    margin-top: 150px;
-    margin-left: 500px;
-    width: 400px;
+/*PUBLIC HEALTH HEADER PIECE befor our STORY*/
+.moreinfo {
+    font-family: serif;
     text-align: center;
+    background-color: grey;
+    margin: auto;
+    margin-top: 150px;
+    width: 50%;
+}
+
+/*Under our Story*/
+.story_container {
+    font-size: 23px;
+    width: auto;
+    text-align: center;
+}
+
+.ourStory {
+    margin-top: 250px;
+    width: 50%;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.ourHospice {
+    margin-top: 350px;
 }
