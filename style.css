@@ -5,13 +5,13 @@
     font-family: inherit;
 }
 
-img{
+img {
     z-index: 1;
     height: auto;
     max-width: 100%;
 }
 
-.navbar{
+.navbar {
     background: white;
     height: 80px;
     display: flex;
@@ -23,7 +23,7 @@ img{
     z-index: 999;
 }
 
-.navbar__container{
+.navbar__container {
     font-family: fantasy;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ img{
     padding: 0 50px;
 }
 
-#navbar__logo{
+#navbar__logo {
     background-color: #ff8277;
     background-image: linear-gradient(to top, #CFA97C 0%, #CFA97C);
     background-size: 100%;
@@ -49,23 +49,23 @@ img{
     font-size: 25px;
 }
 
-.fa-gem{
+.fa-gem {
     margin-right: 0.5rem;
 }
 
-.navbar__menu{
+.navbar__menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
-    -moz-box-shadow: 2px 15px 20px -4px rgba(0,0,0,0.66);
+    -moz-box-shadow: 2px 15px 20px -4px rgba(0, 0, 0, 0.66);
 }
 
-.navbar__item{
+.navbar__item {
     height: 80px;
 }
 
-.navbar__links{
+.navbar__links {
     color: black;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ img{
     height: 100%
 }
 
-.navbar__btn{
+.navbar__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,11 +83,11 @@ img{
     width: 100%;
 }
 
-.button{
-    diplay: flex ;
+.button {
+    diplay: flex;
 }
 
-.bigbanner{
+.bigbanner {
     z-index: 1;
     position: relative;
     width: 100px;
@@ -96,13 +96,14 @@ img{
     width: 100%;
     overflow: hidden;
 }
-.bigpopup{
+
+.bigpopup {
     z-index: 1;
     position: relative;
     width: 100%;
 }
 
-.frontbox{
+.frontbox {
     z-index: 10;
     position: relative;
     -webkit-tap-highlight-color: transparent;
@@ -111,25 +112,25 @@ img{
     background-color: blueviolet;
 }
 
-.box-containers{
-    height: 500px;
+.box-containers {
+    height: 300px;
 }
 
-.headerbox{
+.headerbox {
     background-color: #CFA97C;
     height: 150px;
     width: 400px;
     border: 5px;
     float: left;
     margin: 25px;
-    -webkit-box-shadow: -16px -16px 56px -19px rgba(255,255,255,0.64);
-    -moz-box-shadow: -16px -16px 56px -19px rgba(255,255,255,0.64);
+    -webkit-box-shadow: -16px -16px 56px -19px rgba(255, 255, 255, 0.64);
+    -moz-box-shadow: -16px -16px 56px -19px rgba(255, 255, 255, 0.64);
     border-radius: 50px;
     font-family: fantasy;
 
 }
 
-.box-style-header{
+.box-style-header {
     width: 125px;
     text-align: center;
     cursor: pointer;
@@ -139,14 +140,25 @@ img{
     color: #fff;
 }
 
-.moreinfo{
+.moreinfo {
     font-family: serif;
     text-align: center;
+    background-color: grey;
+    border-radius: 200px;
+    border-width: 50px;
 }
 
-.smallicon{
+.smallicon {
     width: 80px;
     align-items: center;
     margin-left: 150px;
     cursor: pointer;
+}
+
+.ourStory {
+    font-size: 23px;
+    margin-top: 150px;
+    margin-left: 500px;
+    width: 400px;
+    text-align: center;
 }
