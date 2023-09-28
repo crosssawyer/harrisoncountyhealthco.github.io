@@ -1,183 +1,51 @@
-* {
-    box-sizing: border-box;
+body{
+    margin: 0;
+    background: #222;
+    font-weight: 300;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background:cornsilk;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
     margin: 0;
     padding: 0;
-    font-family: inherit;
-}
-
-img {
-    z-index: 1;
-    height: auto;
-    max-width: 100%;
-}
-
-.navbar {
-    background: white;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    position: fixed;
-}
-
-.navbar__container {
-    font-family: fantasy;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 50px;
-}
-
-#navbar__logo {
-    background-color: #ff8277;
-    background-image: linear-gradient(to top, #CFA97C 0%, #CFA97C);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 25px;
-}
-
-.fa-gem {
-    margin-right: 0.5rem;
-}
-
-.navbar__menu {
-    display: flex;
-    align-items: center;
     list-style: none;
-    text-align: center;
-    -moz-box-shadow: 2px 15px 20px -4px rgba(0, 0, 0, 0.66);
 }
 
-.navbar__item {
-    height: 80px;
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
 }
 
-.navbar__links {
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav a{
+    color: #222;
     text-decoration: none;
-    padding: 0 1rem;
-    height: 100%
+    text-transform: uppercase;
 }
 
-.navbar__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
+nav a:hover{
+    color: blue;
 }
 
-.button {
-    diplay: flex;
-}
-
-.bigbanner {
-    z-index: 1;
-    position: relative;
-    width: 100px;
-    height: 500px;
-    margin: 0 auto;
-    width: 100%;
-    overflow: hidden;
-}
-
-.bigpopup {
-    z-index: 1;
-    position: relative;
-    width: 100%;
-}
-
-.frontbox {
-    z-index: 10;
-    position: relative;
-    -webkit-tap-highlight-color: transparent;
-    height: 20px;
-    width: 400px;
-    background-color: blueviolet;
-}
-
-.box-containers {
-    height: 300px;
-    width: 50%;
-    margin: auto;
-}
-
-/*BIG BOXES*/
-.headerbox {
-    background-color: #CFA97C;
-    height: 150px;
-    width: 400px;
-    border: 5px;
-    float: left;
-    margin: 25px;
-    -webkit-box-shadow: -16px -16px 56px -19px rgba(255, 255, 255, 0.64);
-    -moz-box-shadow: -16px -16px 56px -19px rgba(255, 255, 255, 0.64);
-    border-radius: 50px;
-    font-family: fantasy;
-
-}
-
-.box-style-header {
-    width: 125px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 50px;
-    margin: auto;
-    width: 50%;
-    color: #fff;
-}
-
-.smallicon {
-    width: 80px;
-    align-items: center;
-    margin-left: 150px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-/*PUBLIC HEALTH HEADER PIECE befor our STORY*/
-.moreinfo {
-    font-family: serif;
-    text-align: center;
-    background-color: grey;
-    margin: auto;
-    margin-top: 150px;
-    width: 50%;
-}
-
-/*Under our Story*/
-.story_container {
-    font-size: 23px;
-    width: auto;
-    text-align: center;
-    padding: 10px;
-    margin: 200px;
-}
-
-.ourStory {
-    margin-top: 250px;
-    width: 50%;
-    margin: auto;
-    margin-left: 10px;
-}
-
-.ourHospice {
-    margin-top: 350px;
-}
