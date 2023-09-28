@@ -167,6 +167,8 @@ img {
     font-size: 23px;
     width: auto;
     text-align: center;
+    padding: 10px;
+    margin: 200px;
 }
 
 .ourStory {
